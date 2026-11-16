@@ -1,0 +1,133 @@
+body {
+    background-color: #e8edf7;
+    color: #1f2437;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 15px;
+}
+
+header {
+    background-color: #091540;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 15px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 60px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav a {
+    color: #fcfcfc;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #a8c4ff;
+    text-decoration: none;
+}
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: #f7f9fd;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+section h2 {
+    color: #091540;
+    text-align: center;
+}
+
+#beranda {
+    text-align: center;
+}
+
+#beranda img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+section table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+section th {
+    background-color: #1b2a63;
+    color: #fcfcfc;
+    padding: 12px;
+    border: 1px solid #c9d2e8;
+}
+
+
+section td {
+    padding: 12px;
+    border: 1px solid #c9d2e8;
+}
+
+iframe {
+    width: 100%;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #091540;
+    color: #fcfcfc;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#struktural {
+    text-align: center;
+}
+
+#struktural img {
+    max-width: 100%;
+    padding: 10px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+#cariPrestasi {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #05018e;
+    color: #fcfcfc;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #14094c;
+}
